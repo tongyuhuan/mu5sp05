@@ -1,3 +1,5 @@
+tong@ubuntu:~/Desktop/lab3$
+
 3 git clone https://github.com/khachicha/lab3.git
 3 rm -rf .git   //Supprimer le répertoire .git se trouvant dans le répertoire lab3 que vous venez de cloner. 
 4 ls  //Afficher la liste des fichiers
@@ -29,4 +31,10 @@
 36 tar jcvf archive.tar.bz2 .
 37 tar -tf archive.tar.bz2
 38 cp -r archive.tar.bz2 /home/tong/Desktop/mu5sp05/part1/lab3
+
+tong@ubuntu:~/Desktop/mu5sp05/part1$ 
+git add .
+git commit -m "Lab3 committed"
+git remote add origin https://github.com/tongyuhuan/mu5sp05/tree/master/part1/lab3
+git push -u origin master
 
