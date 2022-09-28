@@ -1,0 +1,32 @@
+3 git clone https://github.com/khachicha/lab3.git
+3 rm -rf .git   //Supprimer le répertoire .git se trouvant dans le répertoire lab3 que vous venez de cloner. 
+4 ls  //Afficher la liste des fichiers
+8 ls -a  //Afficher tous les fichiers
+9 ls -lrt
+10 ls -lrsh
+11 cat answering-machine.txt
+12 less answering-machine.txt
+13 sudo apt install neovim
+14 vim answering-machine.txt
+20 tail -n 20 sardar/sardar3.txt
+21 grep trust Microsoft
+22 grep -r money .
+23 grep -ri money .
+24 mv .lightbulb lightbulb
+25 cd sardar
+26 mv sardar3.txt ../        //Déplacer le fichier sardar3.txt vers le répertoire parent depuis le répertoire courant.
+27 cd ..
+28 rm Microsoft
+29 mkdir sardar_backup
+   cp -r sardar/. sardar_backup
+30 ln -s sardar/sardar1.txt sardar1
+   ln -s sardar/sardar2.txt sardar2
+31 ls -a               // couleurs sont différents
+32 rm -rf sardar/sardar2.txt            // couleur du lien sadar2 devient rouge
+33 chmod 444 sardar/sardar1.txt         // ne pas être sauvegardé après modification
+34 ls -l .
+   chmod 644 sardar/sardar1.txt
+36 tar jcvf archive.tar.bz2 .
+37 tar -tf archive.tar.bz2
+38 cp -r archive.tar.bz2 /home/tong/Desktop/mu5sp05/part1/lab3
+
